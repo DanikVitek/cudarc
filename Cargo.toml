@@ -39,4 +39,4 @@ static-linking=[]
 [dependencies]
 spin = { version = "0.9.4", optional = true, features = ["rwlock"], default-features = false }
 no-std-compat = { version = "0.4.1", optional = true, features = [ "alloc" ] }
-half = { git = "https://github.com/coreylowman/half-rs", branch = "add-sampling", optional = true, features = ["num-traits", "rand_distr"] }
+half = { git = "https://github.com/coreylowman/half-rs", branch = "dfdx-half", optional = true, features = ["num-traits", "rand_distr"] }
